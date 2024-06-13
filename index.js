@@ -7,6 +7,8 @@ server.get('/',(req, res) => {
     return res.json(db)
 })
 
+
+
 server.listen(port, () => {
     console.log(`Servidor rodando na porta http://localhost:${port}`)
 })
